@@ -32,6 +32,9 @@
     <Compile Include="FlaskProject\tests\test_1.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="FlaskProject\tests\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="runserver.py" />
     <Compile Include="FlaskProject\__init__.py" />
     <Compile Include="FlaskProject\views.py" />
