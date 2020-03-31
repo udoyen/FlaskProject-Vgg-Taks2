@@ -18,6 +18,7 @@
     <Name>FlaskProject</Name>
     <RootNamespace>FlaskProject</RootNamespace>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <TestFramework>unittest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -34,6 +35,9 @@
     <Compile Include="runserver.py" />
     <Compile Include="FlaskProject\__init__.py" />
     <Compile Include="FlaskProject\views.py" />
+    <Compile Include="__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="FlaskProject\" />
