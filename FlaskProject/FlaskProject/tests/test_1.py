@@ -1,12 +1,12 @@
 import unittest
-import FlaskProject
+from FlaskProject import app
 
 
 class TestBasic(unittest.TestCase):
 
     def setUp(self):
-        FlaskProject.app.testing = True
-        self.app = FlaskProject.app.test_client()
+        app.testing = True
+        self.app = app.test_client()
 
     def test_homepage(self):
         response = self.app.get('/', follow_redirects = True)
