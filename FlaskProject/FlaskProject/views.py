@@ -9,7 +9,7 @@ from ..FlaskProject import app
 @app.route('/')
 @app.route('/home')
 def home():
-    """Renders the home page."""
+    """Renders the home page for the site."""
     return render_template(
         'index.html',
         title='Home Page',
