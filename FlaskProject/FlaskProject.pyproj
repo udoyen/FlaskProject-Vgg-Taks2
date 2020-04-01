@@ -35,7 +35,7 @@
     <Compile Include="FlaskProject\tests\__init__.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="passenger_wsgi.py">
+    <Compile Include="wsgi.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="runserver.py" />
